@@ -16,7 +16,7 @@ body{
     margin-bottom: 15px;
 }
 .hero{
-    background-image: url(./national-theatre.jpg);
+    background-image: url(./nigeria-lagos-1.jpg);
     background-size: cover;
     background-position: cover;
     background-repeat: no-repeat;
@@ -129,9 +129,12 @@ body{
 
 
 @media (max-width:500px) {
+    body {
+        height: 100%;
+    }
 
     .legend {
-        height: 305.3vh;
+        height: 100%;
     }
     #visit1{
         background-color:rgba(0, 0, 0, 0.774);
@@ -187,6 +190,14 @@ body{
         letter-spacing: 1px;
         border-bottom: 1px solid white;
         padding-bottom: 8px;
+    }
+
+    .card {
+       height: 500px;
+    }
+
+    .field {
+        height: 250px;
     }
 
 
