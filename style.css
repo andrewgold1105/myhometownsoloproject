@@ -131,7 +131,7 @@ body{
 @media (max-width:500px) {
 
     .legend {
-        height: 360.3vh;
+        height: 305.3vh;
     }
     #visit1{
         background-color:rgba(0, 0, 0, 0.774);
@@ -166,8 +166,8 @@ body{
     }
 
     #activity img{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         border-radius: 50%;
         font-size: 15px;
         margin-bottom: 13px;
